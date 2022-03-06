@@ -14,7 +14,7 @@ def data():
     if request.method=='POST':
         city= request.form.get('city')
 
-        user_api="2c752e9e4cca5dccee1562c2040c2bdf";
+        user_api="2c752e679e4cca5dcceej1562c209040c2bdf";
         complete_api_link_1="http://api.openweathermap.org/geo/1.0/direct?q={}&limit=5&appid={}".format(city,user_api)
         print(complete_api_link_1)
 
